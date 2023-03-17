@@ -1,0 +1,26 @@
+body{
+    border: 1px solid blue;
+}
+a{
+    padding: 16px;
+    border: 2px solid chartreuse;
+    display: inline;
+}
+#maintitle{
+    color : crimson;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    color : gainsboro;
+    text-align: center;
+}
+/*
+a.anchor1{
+    text-transform: uppercase;
+    display: inline-flex;
+}
+*/
+.anchor1{
+    display: inline-flex;
+}
