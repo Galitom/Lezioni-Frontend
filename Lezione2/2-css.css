@@ -1,0 +1,28 @@
+section ul {
+    background-color: palevioletred;
+}
+
+section table ul {
+    background-color: palegoldenrod;
+}
+
+table > tbody > tr > th {
+    background-color: aqua;
+}
+
+tr + tr{
+    background-color: peru;
+}
+
+section ~ section {
+    background-color: pink;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:link { 
+    text-decoration: none;
+    color: red;
+}
