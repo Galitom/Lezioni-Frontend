@@ -1,0 +1,83 @@
+/* Impostazioni globali */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Intestazione */
+h1 {
+    text-align: center;
+}
+
+/* Wrapper delle temperature */
+.temperatureWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Singolo paese */
+.temperatureContry {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Titolo del paese */
+.temperatureContry p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Immagine del paese */
+.temperatureContry img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* Temperature */
+.temperatureKelvin,
+.temperatureCelsius,
+.temperatureFahrenheit {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Nascondi le temperature inizialmente */
+.hidden {
+    display: none;
+}
+
+/* Stile per il bottone Giorgio */
+#btn {
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #005fa3;
+}
+
+/* Stile per la selezione Kelvin/Celsius/Fahrenheit */
+#opzione {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
