@@ -1,0 +1,78 @@
+/* Imposta lo stile di base per il corpo del documento */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Imposta lo stile dell'intestazione */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+/* Imposta lo stile per la sezione principale */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+/* Imposta lo stile per ogni div di animali */
+div {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Imposta lo stile per il titolo di ogni div */
+div p b {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Imposta lo stile per le immagini di ogni div */
+div img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Imposta lo stile per il testo di ogni div */
+div p:not(:first-of-type) {
+    margin-top: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Imposta gli stili specifici per ogni div di animali */
+div.cani {
+    background-color: #e6f9ff;
+}
+
+div.gatti {
+    background-color: #ffe6cc;
+}
+
+div.criceti {
+    background-color: #e6ccff;
+}
+
+div.ricci {
+    background-color: #ccffe6;
+}
+
+div.pesci {
+    background-color: #f9e6ff;
+}
+
+div.lucertole {
+    background-color: #ffffcc;
+}
