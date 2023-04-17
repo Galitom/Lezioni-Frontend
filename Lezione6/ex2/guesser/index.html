@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./index.css" />
+        <title>Indovina il numero</title>
+    </head>
+    <body>
+        <h1>Indovina il numero</h1>
+        <p>
+            Ho pensato a un numero tra 1 e 100. Indovina quale è stato estratto!
+        </p>
+        <label for="guess">Inserisci il tuo tentativo:</label>
+        <input type="text" id="guess" name="guess" />
+        <button onclick="verifica()">Verifica</button>
+        <button onclick="reset()">Reset</button>
+        <p id="result"></p>
+        <p id="score">Vittorie: 0</p>
+        <script src="index.js"></script>
+    </body>
+</html>
