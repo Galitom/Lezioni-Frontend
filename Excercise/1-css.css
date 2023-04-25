@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: hsl(0, 0%, 0%);
+    background-color: black;
 }
 
 a {
@@ -12,10 +12,6 @@ a {
 .ancorNav {
     margin-right: 15px;
     color: #ffffff;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 /* Stili per i bottoni */
@@ -79,6 +75,17 @@ main {
     text-align: right;
 }
 
-footer {
+#bottomNav {
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.bottomArtic > a {
+    color: white;
+}
+
+.bottomArtic {
+    display: flex;
+    flex-direction: column;
 }
