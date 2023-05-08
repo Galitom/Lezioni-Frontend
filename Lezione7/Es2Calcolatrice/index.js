@@ -24,6 +24,8 @@ console.log(calcolatrice.calculate("5 + 3"));
 calcolatrice.addMethod("*", (a, b) => a * b);
 console.log(calcolatrice.calculate("5 * 3"));
 
+//--------------------------------------------------------------
+
 const lista = [1, 2, 3, 4];
 console.log(aCaso(lista));
 
