@@ -1,0 +1,5 @@
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+rquired sull'input non fa la richiesta 
+
+email = pattern =".+@gmail\.com"

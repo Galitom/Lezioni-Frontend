@@ -1,0 +1,63 @@
+/* Imposta il font di default per l'intero documento */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Centra l'intestazione */
+h1 {
+    text-align: center;
+}
+
+/* Stilizza il form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Stilizza la label */
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/* Stilizza la select */
+select {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+/* Stilizza il pulsante di ricerca */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Stilizza il pulsante di ricerca al passaggio del mouse */
+button[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Stilizza le immagini */
+img {
+    display: block;
+    max-width: 45%;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
