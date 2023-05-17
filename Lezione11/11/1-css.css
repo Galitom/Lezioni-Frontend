@@ -1,0 +1,90 @@
+/* Font */
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-image: url("./images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+/* Button */
+button {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+button:hover {
+    background-color: hsl(0, 100%, 70%);
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+/* Password input */
+#pass {
+    margin-bottom: 2rem;
+}
+
+/* Submit button */
+form button {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 0.8rem;
+    color: #ccc;
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#free {
+    background-color: hsl(154, 59%, 51%);
+}
+
+#prova {
+    background-color: hsl(248, 32%, 49%);
+}

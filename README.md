@@ -28,3 +28,12 @@ Esercitazione css e js sugli oggetti
 
 -Ottava lezione di FrontEnd:
 Spiegazione degli eventi
+
+-Nona lezione di FrontEnd:
+css e Grid
+
+-Decima lezione di FrontEnd:
+chiamate Api Amiibo
+
+-Undicesima lezione
+form input <fieldset> attributi=(required) <em>
