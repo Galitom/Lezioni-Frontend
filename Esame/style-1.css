@@ -1,0 +1,273 @@
+@media screen and (max-width: 600px) {
+    input {
+        width: 100%;
+    }
+}
+/*
+@media screen and (max-width: 1700px) {
+    body {
+        width: 100%;
+    }
+}
+*/
+:root {
+    --violetto: #bf9aca;
+    --violascuro: #8e4162;
+    --bianco: white;
+    --neretto: #41393e;
+    --giallino: bisque;
+    --azzurrino: #c7e8f3;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h4,
+a,
+button {
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Space Mono", monospace;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Space Mono", monospace;
+}
+
+body {
+    margin: 0;
+}
+
+form {
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form > h2 {
+    margin-bottom: 3%;
+}
+
+h2 {
+    margin: 0;
+}
+
+footer {
+    background-color: var(--violascuro);
+    color: var(--giallino);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#signin {
+    background-color: var(--violascuro);
+    border-color: var(--violascuro);
+    color: var(--bianco);
+    font-size: 70%;
+}
+
+#signin:hover {
+    border-color: black;
+}
+
+#login {
+    background: 0;
+    border-color: var(--bianco);
+    color: var(--bianco);
+    font-size: 70%;
+}
+
+#login:hover {
+    background-color: var(--bianco);
+    color: black;
+}
+
+#musicList {
+    display: flex;
+}
+
+#musicList > a {
+    color: var(--bianco);
+}
+
+#musicEvents {
+    margin: 0;
+}
+
+#topNav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+    color: var(--bianco);
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 10%;
+    padding-left: 4%;
+    padding-bottom: 20%;
+    color: var(--bianco);
+}
+
+#immagine {
+    margin: 0;
+    background-image: url("./exam/assets/bg-desktop.png");
+    background-size: cover;
+}
+
+#idForm {
+    background-color: var(--violetto);
+}
+
+#input {
+    padding: 1%;
+}
+
+#eventi {
+    background-color: var(--neretto);
+}
+
+#titoloEventi {
+    padding: 5%;
+    color: var(--bianco);
+}
+
+#titoloEventi > p {
+    color: var(--giallino);
+    font-size: 70%;
+}
+
+#listaEventi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#listaEventi > div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+}
+
+#listaEventi > div > img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#listaEventi > div > p {
+    color: var(--bianco);
+}
+
+#moreEvents {
+    margin: 5%;
+    font-size: 60%;
+    background-color: var(--violascuro);
+    color: var(--giallino);
+    padding: 1%;
+    border: 0;
+}
+
+#moreEvents:hover {
+    border-color: var(--giallino);
+    border-width: 2px;
+}
+
+#generi {
+    background-color: var(--azzurrino);
+}
+
+#titoloGeneri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+#titoloGeneri > p {
+    margin: 0;
+    font-size: 75%;
+}
+
+#titoloGeneri > h2 {
+    color: var(--violascuro);
+}
+
+#listaGeneri {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#divFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 60%;
+    padding: 6%;
+    padding-bottom: 4%;
+}
+
+#divFooter > h4 {
+    margin: 0;
+}
+
+#divAncore {
+    font-size: 60%;
+    display: flex;
+}
+
+#divAncore > a {
+    padding: 1%;
+    color: var(--giallino);
+}
+
+.musicCLass {
+    padding: 1%;
+    margin-left: 5%;
+}
+
+.titleClass {
+    font-size: 50%;
+}
+
+.titleClass2 {
+    margin: 0%;
+    font-size: 300%;
+}
+
+.genere {
+    background: none;
+    border-radius: 30px;
+    color: var(--violascuro);
+    border-color: var(--violascuro);
+    margin: 5px;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 60%;
+}
+
+.genere:hover {
+    background-color: var(--violascuro);
+    color: white;
+}

@@ -1,0 +1,117 @@
+body {
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(184, 14%, 56%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: hsl(172, 67%, 45%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p {
+    color: hsl(184, 14%, 56%);
+    border-radius: 3px;
+}
+
+p,
+h3 {
+    margin: 0;
+}
+
+form {
+    font-size: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+}
+
+#divPrincipale {
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 10px;
+    display: flex;
+    padding: 5vh;
+}
+
+#divRisultato {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#divBottoni {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+}
+
+#money,
+#people {
+    width: 200px;
+}
+
+#custom {
+    width: 85px;
+    height: 25px;
+    background-color: white;
+}
+
+#reset {
+    font-family: "Space Mono", monospace;
+    padding: 5%;
+    border-radius: 5px;
+    background-color: hsl(172, 67%, 45%);
+}
+
+.divRis {
+    display: flex;
+}
+
+.bottoniMancia {
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    width: 107px;
+    height: 50px;
+    margin: 3px;
+    color: white;
+}
+
+.bottoniMancia:hover {
+    background-color: hsl(172, 67%, 45%);
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+}
+
+.inputForm {
+    font-family: "Space Mono", monospace;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.pPiccolo {
+    font-size: 60%;
+}
+
+.divP {
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
